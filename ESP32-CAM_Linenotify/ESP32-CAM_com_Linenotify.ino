@@ -1,16 +1,12 @@
 /*
-  ESP32-CAM (Save a captured photo to Line Notify)
-  Author : ChungYi Fu (Kaohsiung, Taiwan)  2019-9-14 02:30
-  https://www.facebook.com/francefu
-
-  You could only send up to 50 images to Line Notify in one hour.
-  The maximum size of post-upload image is XGA(1024*768).
+  Você pode enviar apenas 50 imagens para o Line Notify em uma hora.
+  O tamanho máximo da imagem pós-upload é XGA (1024 * 768).
 */
 
-// Enter your WiFi ssid and password
+//Digite seu SSID e senha WiFi
 const char* ssid = "Multilaser_2.4G_39C8D0";
 const char* password = "12345678";
-String myLineNotifyToken = "Z41HaN1ooxHySfEXEjdu5JNcNY0x9TJxMqDylc667GU";    //Line Notify Token
+String myLineNotifyToken = "Z41HaN1ooxHySfEXEjfu5JNcNY0x9TJxMqDylc667GU";    //Line Notify Token
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
